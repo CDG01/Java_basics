@@ -6,7 +6,7 @@ e di scambiare le sue righe e le sue colonne stampandola a video.
 
 import java.util.Arrays;
 
-public class ArrayMultidimensionali2 {
+public class MultidimensionalArray2 {
     public static void main(String[] args) {
 
         // valori arbitrari

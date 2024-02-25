@@ -11,7 +11,7 @@
 
 import java.util.Arrays;
 
-public class ArrayMultidimensionali1 {
+public class MultidimensionalArray1 {
     public static void main(String[] args) {
         int[] myElements = {1, 3, 3, 4, 5, 5, 7, 8, 8, 10, 11, 11}; //array di lunghezza arbitraria contenete gli elementi scelti della matrice, supposti integers
         int columns = 3; // numero di colonne scelte che dovrà avere la matrice
