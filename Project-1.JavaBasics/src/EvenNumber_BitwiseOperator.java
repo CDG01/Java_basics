@@ -11,7 +11,7 @@ public class EvenNumber_BitwiseOperator {
 
     public static boolean isItEven(int num) {
         return (num & 1) == 0;
-    }
+    } // andava bene anche: (num | 0) == 0
 
     /*
     Nel metodo isItEven, ho utilizzato l'operatore bitwise & per verificare

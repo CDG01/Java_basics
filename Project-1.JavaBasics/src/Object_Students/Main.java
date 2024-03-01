@@ -8,7 +8,10 @@ Nel main dichiarare un oggetto di tipo Studente.
 package Object_Students;
 
 public class Main {
-    Students studentSpecial = new Students("Chiara", "De Guglielmo");
 
-    System.out.println(studentSpecial.getName())
+    public static void main(String[] args) {
+        Students studentSpecial = new Students("Chiara", "De Guglielmo");
+        System.out.println(studentSpecial.getName());
+    }
 }
+
