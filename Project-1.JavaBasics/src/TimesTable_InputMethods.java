@@ -1,8 +1,13 @@
 import java.util.Scanner;
 
+/* CONSEGNA
+Programma che stampa la tabellina del numero inserito in input dall'utente
+ */
+
+
 public class TimesTable_InputMethods {
     public static void main(String args[]) {
-        Scanner inputNum = new Scanner(System.in);
+        Scanner inputNum = new Scanner(System.in).useDelimiter("\n");
 
         boolean error;
         do {
@@ -14,7 +19,10 @@ public class TimesTable_InputMethods {
             } catch (Exception e) {// e è il nome della varabile a cui è assegnato come valore il tipo di errore avvenuto
                 error = true;
                 System.out.println("L'input deve essere un numero intero, ritenta:");
-                  inputNum.nextLine(); // Per evitare un loop infinito, consumiamo l'input errato.
+
+                inputNum.nextLine(); // Per evitare un loop infinito, consumiamo l'input errato leggendo il buffer fino al new line ma non salvando la stringa in nessuna variabile
+                // System.out.println("L'input errato è: "+ inputNum.next());  // alternativamente, va bene questa riga di codice per consumare il buffer e quindi fermare il loop
+
             }
         } while (error);
     }

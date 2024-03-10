@@ -1,7 +1,8 @@
 package Encapsulation_Supermarket;
 
-import java.sql.SQLOutput;
 import java.util.Arrays;
+
+
 
 public class Carts {
     // ATTRIBUTI
@@ -13,7 +14,6 @@ public class Carts {
     // costruttore
     public Carts(Items[] items){
         this.items = items;
-        setItems(items);
     }
 
     /*
@@ -36,9 +36,6 @@ public class Carts {
         return items;
     }
 
-    public void setItems(Items[] items) {
-        this.items = items;
-    }
 
 
 
@@ -48,13 +45,12 @@ public class Carts {
      */
     @Override
     public String toString() {
-        return "Carts{" +
-                "items=" + Arrays.toString(items) +
-                '}';
+        return Arrays.toString(items);
     }
 
     public void printReceipt() {
         System.out.println("Scontrino:");
+        System.out.println("Il carrello è: " + this);
         System.out.println("Numero di articoli: " + this.getItems().length);
         System.out.println("Prezzo IVA esclusa: " + this.getTotalPrice(false));
         System.out.println("Prezzo IVA inclusa: " + this.getTotalPrice(true));

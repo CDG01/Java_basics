@@ -1,27 +1,14 @@
-package Encapsulation_Supermarket;
-
-enum Category {
-    CarniPesciUova,
-    LatteEDerivati,
-    CerealiDerivatiTuberi,
-    Legumi,
-    GrassiOliCondimento,
-    OrtaggiFrutti
-
-}
+package Abstraction_Supermarket;
 
 public class Items {
     private String name;
     private double price;
     private double IVA;
-    private final Category category;
 
-
-    public Items(String name, double price, double IVA, Category category) {
+    public Items(String name, double price, double IVA) {
         this.name = name;
         this.price = price;
         this.IVA = IVA;
-        this.category = category;
     }
 
     /*

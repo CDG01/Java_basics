@@ -110,4 +110,30 @@ public class PlayGames {
         }
     }
 
+    public static class test_buttami_2 {
+
+
+            public static void main(String[] args) {
+                double numero = 7.0;
+                if (isPari(numero)) {
+                    System.out.println(numero + " è un numero pari.");
+                } else {
+                    System.out.println(numero + " è un numero dispari.");
+                }
+            }
+
+        public static boolean isPari(double numero) {
+            // Verifica se il numero è intero
+            if(numero % 1 != 0) {
+                System.out.println("Il numero non è intero.");
+                return false;
+            }
+            // Converte il numero in intero
+            int numInter = (int) numero;
+            // Verifica se il numero intero è pari
+            return numInter % 2 == 0;
+        }
+
+
+    }
 }
