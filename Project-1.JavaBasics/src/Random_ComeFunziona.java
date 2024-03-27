@@ -1,6 +1,6 @@
 import java.util.Random;
 
-public class test_buttami {
+public class Random_ComeFunziona {
 
     public static void main(String[] args) {
         Random randomInstance;

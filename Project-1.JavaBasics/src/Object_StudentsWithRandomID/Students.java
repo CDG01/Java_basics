@@ -1,4 +1,4 @@
-package Object_Students;
+package Object_StudentsWithRandomID;
 
 import java.util.UUID;
 

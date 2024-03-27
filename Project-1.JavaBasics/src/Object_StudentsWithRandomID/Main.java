@@ -5,13 +5,15 @@ Per questa classe saranno necessari i metodi accessori (getters e setters) ed un
 Nel main dichiarare un oggetto di tipo Studente.
  */
 
-package Object_Students;
+package Object_StudentsWithRandomID;
 
 public class Main {
 
     public static void main(String[] args) {
         Students studentSpecial = new Students("Chiara", "De Guglielmo");
-        System.out.println(studentSpecial.getName());
+        System.out.println(studentSpecial.getID());
+        System.out.println(studentSpecial.getID());
+
     }
 }
 
