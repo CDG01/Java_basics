@@ -1,4 +1,4 @@
-package src;
+package GestioneLibreria;
 /*
 Descrizione dell'Esercizio: "Gestione di una Libreria"
 In questo esercizio, creeremo un sistema di gestione di una libreria utilizzando l'ereditarietà in Java.
