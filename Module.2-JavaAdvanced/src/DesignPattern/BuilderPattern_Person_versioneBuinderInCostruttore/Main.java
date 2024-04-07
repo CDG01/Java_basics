@@ -13,17 +13,13 @@ public class Main {
 
     public static void main(String[] args) {
 
-        Person person1 = PersonBuilder.builder()
-                .setFirstName("nome1")
-                .setLastName("cognome1")
+        Person person1 = PersonBuilder.builder("nome1", "cognome1")
                 .setAge(111)
                 .setAddress("Via 1")
                 .build();
         System.out.println("Person1: " + person1);
 
-        Person person2 = PersonBuilder.builder()
-                .setFirstName("nome2")
-                .setLastName("cognome2")
+        Person person2 = PersonBuilder.builder("nome2", "cognome2")
                 .build();
         System.out.println("Person2: " + person2);
 

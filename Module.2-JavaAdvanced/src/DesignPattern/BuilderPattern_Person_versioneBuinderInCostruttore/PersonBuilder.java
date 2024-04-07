@@ -7,25 +7,20 @@ public class PersonBuilder {
     private int age;
     private String address;
 
-    // scelgo di fare un costruttore accessibile solo da dentro la classe Person
-    private PersonBuilder() {}
+    // scelgo di fare un costruttore accessibile solo da dentro la classe PersonBuider
+    // obbligo l'assegnazione di firsName e lastName
+    private PersonBuilder(String firstName, String lastName) {
+        this.firstName=firstName;
+        this.lastName=lastName;
+    }
 
 
 
     // metodo per sfornare una nuova istanza
-    public static PersonBuilder builder() {
-        return new PersonBuilder();
+    public static PersonBuilder builder(String firstName, String lastName) {
+        return new PersonBuilder( firstName,  lastName);
     }
 
-    public PersonBuilder setFirstName(String firstName) {
-        this.firstName = firstName;
-        return this;
-    }
-
-    public PersonBuilder setLastName(String lastName) {
-        this.lastName = lastName;
-        return this;
-    }
 
     public PersonBuilder setAge(int age) {
         this.age = age;
