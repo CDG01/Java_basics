@@ -1,0 +1,4 @@
+Stub e Mock sntrano in gioco quando vogliamo isolare quello che vogliamo testare
+
+Semplificano il problema del testing quando la classe da testare ha dipendenze da classi o database esterni
+
