@@ -14,6 +14,11 @@ public class Main {
         footballTeam.add(player2);
         footballTeam.add(player3);
 
+        // il metodo statico sort() dell'interfaccia Collection prende l'istanza di una classe che implementa Collection e,
+        // nel caso gli viene passato solo questo parametro, li riordina in base a come è definito ComplateTo della
+        // Classe di cui è stata passata l'istanza.
+        // Dentro sort() viene usato compareTo() implementato dalla classe per comparare uno a uno gli elemnti contenuti nell'istanza
+        // con un algoritmo che dovrebbe chiamarsi quicksort
         System.out.println("Before Sorting : " + footballTeam);
         Collections.sort(footballTeam);
         System.out.println("After Sorting : " + footballTeam);

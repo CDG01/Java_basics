@@ -13,6 +13,11 @@ public abstract class Persona {
         return nome;
     }
 
+    // i metodi/attributi statici non supportano l'ereditarietà e il polimorfismo, il che può limitare la flessibilità del codice
+    public static void metodoStaticoDiPersona () {
+        System.out.println("Questo metodo non è ereditato dalle sottoclassi di Persona, e quindi non può essere Sovrascritto dalle sottoclassi dando luogo a polimorfismo");
+    }
+
     public static void presentazione (Persona[] persone) {
         for (Persona persona : persone) {
             persona.siPresenta();
