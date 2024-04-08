@@ -38,6 +38,7 @@ public class FillHashSet_RemoveFromHashSet {
             String element = iterator.next();
             if (element.equals(elementToRemove)) {
                 iterator.remove();
+                System.out.println("La stringa \"" + elementToRemove + "\" è stata eliminata dall'HashSet'");
             }
         }
         return hashSet;
