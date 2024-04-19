@@ -1,4 +1,4 @@
-package GestioneLibreria;
+package Array_GestioneLibreria;
 /*
 Descrizione dell'Esercizio: "Gestione di una Libreria"
 In questo esercizio, creeremo un sistema di gestione di una libreria utilizzando l'ereditarietà in Java.
@@ -17,10 +17,10 @@ rimuovere un libro e
 visualizzare tutti i libri presenti nella libreria.
 */
 
-import GestioneLibreria.libreria.Libreria;
-import GestioneLibreria.models.Ebook;
-import GestioneLibreria.models.Libro;
-import GestioneLibreria.models.LibroCartaceo;
+import Array_GestioneLibreria.libreria.Libreria;
+import Array_GestioneLibreria.models.Ebook;
+import Array_GestioneLibreria.models.Libro;
+import Array_GestioneLibreria.models.LibroCartaceo;
 
 public class Main {
     public static void main(String[] args){

@@ -1,6 +1,6 @@
-package GestioneLibreria.libreria;
+package Array_GestioneLibreria.libreria;
 
-import GestioneLibreria.models.Libro;
+import Array_GestioneLibreria.models.Libro;
 
 public interface ILibreria {
     void aggiungiLibro(Libro libro);

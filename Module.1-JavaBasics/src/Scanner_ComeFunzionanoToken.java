@@ -5,7 +5,7 @@ I token (ogni parola/numero circondato da spazi) rimangono nel buffer finché no
 
 import java.util.Scanner;
 
-public class Scanner_ComeFunzionanoIToken {
+public class Scanner_ComeFunzionanoToken {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 

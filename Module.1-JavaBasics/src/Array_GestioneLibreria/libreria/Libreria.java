@@ -1,6 +1,12 @@
-package GestioneLibreria.libreria;
+package Array_GestioneLibreria.libreria;
 
-import GestioneLibreria.models.Libro;
+import Array_GestioneLibreria.models.Libro;
+
+/*
+la differenza tra incrementi:
+id = contatore++   --> prima assegna ad id il valore di contaotre, poi incrementa contatore
+id = ++contatore \\  --> prima incrementa contatore, poi assegna ad id il valore di contatore
+ */
 
 public class Libreria implements ILibreria {
     private Libro[] libros;

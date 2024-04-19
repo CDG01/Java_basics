@@ -1,4 +1,4 @@
-package GestioneLibreria.models;
+package Array_GestioneLibreria.models;
 
 public class Libro {
     protected String titolo;
